@@ -1,0 +1,513 @@
+@font-face {
+  font-family: "Kiona";
+  src: url("./assets/font/Kiona-Regular.ttf");
+}
+
+@font-face {
+  font-family: "HeadingNow-94Regular";
+  src: url("./assets/font/HEADINGNOW-94REGULAR.OTF");
+}
+@font-face {
+  font-family: "e-Ukraine"; 
+  src: url("./assets/font/E-UKRAINEHEAD-LIGHT.OTF"); 
+}
+@font-face {
+  font-family: "SK Concretica"; 
+  src: url("./assets/font/SKCONCRETICA-REGULARTRIAL.TTF"); 
+}
+*{
+  color: #ffffff;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover{
+  color: burlywood;
+}
+#the-team{
+  text-align: center;
+}
+body {
+  width: 100%;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  margin: 0px;
+  background-image: url("./assets/img/Texture.png");
+  background-size: cover;
+  background-color: #100F17;
+}
+
+/* p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+} */
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+iframe {
+  border: 0;
+}
+#main-section > .section{
+  padding: 50px 0;
+}
+.section .p-heading{
+  padding: 30px 0;
+}
+blockquote {
+  font-size: 18px;
+  border-color: #000;
+  padding: 20px 40px;
+  text-align: left;
+  color: #777;
+}
+
+/* ?? */
+.navbar-toggle .icon-bar {
+  background: #000;
+}
+#main-section{
+  position: relative;
+}
+#main-section .main-gradient{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.e-ukraine{
+  font-family: 'e-Ukraine';
+}
+.HeadingNow{
+  font-family: "HeadingNow-94Regular";
+}
+.Kiona{
+  font-family: "Kiona";
+}
+
+#the-video{
+  position: relative;
+  display: flex;
+}
+#the-video img{
+  z-index: -2;
+  width: 100%;
+  object-fit: cover;
+}
+#the-video > div{
+  position: absolute;
+  display: table;
+  width: 20%;
+  height: 100%;
+  left: 12%;
+}
+#the-video > div > div{
+  display:table-cell;
+  vertical-align:middle;
+}
+.footer{
+  padding: 124px 10% 0 10%;
+}
+.footer .row{
+  align-items: center;
+}
+.footer .menu{
+  display: inline-flex;
+
+}
+.social-icons a{
+  padding: 0px 10px;
+}
+.footer .menu li{
+  padding-right: 20px;
+  font-family: 'Kiona';
+}
+
+#main-section{
+  margin-bottom: 200px;
+}
+
+.top-header .social-icons{
+  padding: 20px 0;
+  float: left;
+}
+
+a{
+  cursor: pointer;
+}
+.p-header-title{
+  font-family: "SK Concretica";
+  font-size: 38px;
+  text-align: left;
+}
+.p-title{
+  font-family: "HeadingNow-94Regular";
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 58.52px;
+}
+.p-ftitle{
+  font-family: "HeadingNow-94Regular";
+  font-size: 28px;
+  color: #ffffff;
+  line-height: 51px;
+  font-weight: 400;
+}
+.p-heading{
+  font-size: 85px;
+  font-family: "HeadingNow-94Regular";
+  text-transform: uppercase;
+}
+.p-desc{
+  font-family: 'e-Ukraine';
+  color: #ffffff;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.p-roadmap-num{
+  font-family: "HeadingNow-94Regular";
+  font-size: 175px;
+}
+
+
+.p-team-name{
+  font-family: "e-Ukraine";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+}
+.p-team-pos{
+  font-family: "e-Ukraine";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 22px;
+}
+.p-team-desc{
+  font-family: "e-Ukraine";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+}
+.p-marquee{
+  font-family: "Kiona";
+  font-weight: 600; 
+  font-size: 37.17px;
+  line-height: 44.61px;
+  margin: 50px 0 70px;
+}
+.project-back img{
+  width: 100%;
+  max-height: 100%;
+}
+
+/* responsive */
+@media screen and (max-width: 1200px){
+  #main-section{
+    margin-bottom: 150px !important;
+  }
+  footer .menu li{
+    font-size: 18px !important;
+  }
+  .team-item .m-card{
+    margin-bottom: 40px !important;
+    padding: 7px !important;
+  }
+  .list-group-item{
+    font-size: 18px !important;
+  }
+  .top-header{
+    padding: 40px 5% 100px 7% !important;
+  }
+
+  .p-header-title{  
+    font-size: 40px !important;
+  }
+  .p-desc{
+    font-size: 16px !important;
+  }
+  .p-title{
+    font-size: 27px !important;
+  }
+  .p-ftitle{
+    font-size: 20px !important;
+  }
+  .p-roadmap-num{
+    font-size: 155px !important;
+  }
+  .p-heading{
+    font-size: 65px !important;
+  }
+    
+  .p-team-name{
+    font-size: 20px !important;
+  }
+  .p-team-pos{
+    font-size: 14px !important;
+  }
+  .p-team-desc{
+    font-size: 13px !important;
+  }
+
+  
+  .mright{
+    padding-right: 60px !important;
+  }
+  .mleft{
+    padding-left: 60px !important;
+  }
+  .roadmap-item .index {
+    min-width: 77px !important;
+  }
+    
+  .mright .index {
+    margin-right: -17px !important;
+  }
+  .mleft .index {
+    margin-left: -17px !important;
+  }
+}
+.c-loading text{
+  font: normal 25px "Kiona" !important;
+}
+@media screen and (max-width: 1000px){
+  .b-boy1{
+    content: url('./assets/img/section/set_33.png') !important;
+    width: 50% !important;
+  }
+  .b-boy2{
+    content: url('./assets/img/section/set_11.png') !important;
+    left: 0;
+    top: 5% !important;
+    width: 50% !important;
+  }
+  .b-boy3{
+    content: url('./assets/img/section/set_22.png') !important;
+    left: 0;
+    width: 50% !important;
+  }
+  .p-roadmaps{
+    width: 100%;
+  }
+  
+  .m-card hr{
+    margin: 10px !important;
+    margin-left: 40% !important;
+  }
+  #main-section{
+    margin-bottom: 100px !important;
+  }
+  footer .menu li{
+    font-size: 15px !important;
+    padding: 0 10px 0 0 !important;
+  }
+  .footer{
+    padding: 50px 5% 0 5% !important;
+  }
+  footer .logo img{
+    width: 144px !important;
+  }
+  .c-loading{
+    width: 38px !important;
+  }
+
+  .p-marquee{
+    font-size: 16px !important;
+    line-height: 19.2px !important;
+    margin: 20px 0 30px !important;
+  }
+
+  .mright{
+    padding-right: 60px !important;
+  }
+  .mleft{
+    padding-left: 60px !important;
+  }
+  .roadmap-item .index {
+    min-width: 77px !important;
+  }
+    
+  .mright .index {
+    margin-right: -17px !important;
+  }
+  .mleft .index {
+    margin-left: -17px !important;
+  }
+
+  .social-icons{
+    padding: 1px 0 !important;
+  }
+  .social-icons img{
+    width: 16px !important;
+  }
+  .team-item img {
+    padding: 7px !important;
+  }
+  .team-item .m-card{
+    margin-bottom: 20px !important;
+    padding: 0px !important;
+  }
+  .list-group-item{
+    padding: 7% 3% !important;
+    font-size: 15px !important;
+  }
+  .p-header-title{
+    font-size: 28px !important;
+  }
+  .p-desc{
+    font-size: 15px !important;
+    line-height: 18px !important;
+  }
+  .p-title{
+    font-size: 23px !important;
+  }
+  .p-ftitle{
+    font-size: 18px !important;
+  }
+  .p-roadmap-num{
+    font-size: 87px !important;
+  }
+  .p-heading{
+    font-size: 37px !important;
+  }
+  .p-team-name{
+    font-size: 16px !important;
+  }
+  .p-team-pos{
+    font-size: 13px !important;
+  }
+  .p-team-desc{
+    font-size: 12px !important;
+  }
+  #the-projects > .container{
+    margin-bottom: 100px !important;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .top-header {
+    padding: 30px 5% 40px 7% !important;
+  }
+  .top-header .social-icons{
+    display: none;
+  }
+  .top-header .logo img{
+    width: 85px !important;
+    float: left;
+  }
+  .p-header-title{
+    font-size: 17px !important;
+    line-height: 19px !important;
+  }
+  #main-section{
+    margin-bottom: 80px !important;
+  }
+  .p-desc{
+    font-size: 12px !important;
+    line-height: 10.8px !important;
+  }
+  .p-title{
+    line-height: 20.8px !important;
+    font-size: 14px !important;
+  }
+  .p-ftitle{
+    line-height: 19px !important;
+    font-size: 12px !important;
+  }
+  .p-roadmap-num{
+    line-height: 51.2px !important;
+    font-size: 35px !important;
+  }
+  .p-heading{
+    line-height: 32.2px !important;
+    font-size: 30px !important;
+  }
+  .p-marquee{
+    font-size: 9.32px !important;
+    line-height: 11.2px !important;
+    margin: 10px 0 20px;
+  }
+
+  .mright{
+    padding-right: 25px !important;
+  }
+  .mleft{
+    padding-left: 25px !important;
+  }
+    
+  .mright .index {
+    margin-right: -6px !important;
+  }
+  .mleft .index {
+    margin-left: -6px !important;
+  }
+  
+  .roadmap-item .index {
+    min-width: 31px !important;
+  }
+
+  .main-footer > div{
+    width: 100%;
+    margin: 10px;
+  }
+  /*  */
+  /* .social-icons{
+    padding: 1px 0 !important;
+  }
+  .social-icons img{
+    width: 16px !important;
+  } */
+/* 
+  footer .menu li{
+    font-size: 15px !important;
+    padding: 0 10px 0 0 !important;
+  } */
+  .footer{
+    padding: 10px 5% 0 5% !important;
+  }
+  footer .logo img{
+    width: 144px !important;
+  }
+  .c-loading{
+    width: 38px !important;
+  }
+
+  .team-item img {
+    padding: 7px !important;
+  }
+  .team-item .m-card{
+    margin-bottom: 20px !important;
+    padding: 4px !important;
+  }
+  .list-group-item{
+    padding: 7% 3% !important;
+    font-size: 15px !important;
+  }
+  #the-projects > .container{
+    margin-bottom: 100px;
+  }
+  .copyright-text {
+    font-size: 12px;
+  }
+}
